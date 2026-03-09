@@ -1,0 +1,13 @@
+{
+  "name": "semafor-scraper",
+  "version": "1.0.0",
+  "description": "Scraper for HNS Semafor match data",
+  "main": "scrape_semafor.js",
+  "scripts": {
+    "start": "node scrape_semafor.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
